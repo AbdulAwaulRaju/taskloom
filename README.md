@@ -1,5 +1,7 @@
 # Taskloom
 
+[![CI](https://github.com/AbdulAwaulRaju/taskloom/actions/workflows/ci.yml/badge.svg)](https://github.com/AbdulAwaulRaju/taskloom/actions/workflows/ci.yml)
+
 A durable, **zero-dependency** job queue for Node.js, written from scratch.
 Priorities, delayed jobs, visibility-timeout leases, retries with jittered exponential backoff,
 a dead-letter queue, idempotent enqueue, and a checksummed write-ahead log that survives crashes.
