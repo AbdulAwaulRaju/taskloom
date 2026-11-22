@@ -1,0 +1,25 @@
+{
+  "name": "taskloom",
+  "version": "1.1.0",
+  "description": "A durable, zero-dependency job queue for Node.js: priorities, delayed jobs, leases, retries with jittered backoff, dead-letter queue, and a checksummed write-ahead log.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "taskloom": "bin/taskloom.js" },
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "start": "node bin/taskloom.js serve",
+    "demo": "node examples/demo.js",
+    "test": "node --test"
+  },
+  "keywords": ["job-queue", "task-queue", "write-ahead-log", "retries", "dead-letter-queue", "nodejs"],
+  "author": "Abdul Awaul Raju (https://github.com/AbdulAwaulRaju)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulAwaulRaju/taskloom.git"
+  },
+  "homepage": "https://github.com/AbdulAwaulRaju/taskloom#readme",
+  "bugs": {
+    "url": "https://github.com/AbdulAwaulRaju/taskloom/issues"
+  }
+}
